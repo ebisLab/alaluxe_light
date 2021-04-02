@@ -1,6 +1,13 @@
+html{
+   background: #10060b;
+}
+
 body {
     margin: 0;
-    font-family: "Lato", sans-serif;
+    font-family: 'Cormorant',serif;
+    font-style: italic;
+    font-weight: 500;
+    // font-family: "Lato", sans-serif;
   }
   
   code {
@@ -10,7 +17,7 @@ body {
 
   .filter_container{
     max-width: 1200px;
-    margin: 0px 15%;
+    margin: 0px 5%;
     padding: 0 20px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
