@@ -1,5 +1,5 @@
 html{
-   background: #10060b;
+    background: rgb(41 40 43);
 }
 
 body {
@@ -51,4 +51,32 @@ body {
 
 .section2_centered{
     text-align: center;
+}
+
+input{
+    background: #222224;
+    border: none;
+    color: wheat;
+    margin: 8px;
+    width: 46%;
+    height: 50px;
+}
+
+textarea{
+    background: #222224;
+    border: none;
+    color: wheat;
+    margin: 8px;
+    height: 100px;
+    width: 100%;
+    padding: 5% 0;
+}
+
+.btn-2{
+    background: #323235;
+    border: none;
+    color: wheat;
+    height: 55px;
+    width: 100%;
+    text-transform: uppercase;
 }
