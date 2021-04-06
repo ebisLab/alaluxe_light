@@ -45,7 +45,7 @@ const filter_through=()=>{
               {/* <section style={{height:"300px", background:"gold"}}></section> */}
 
         
-        <section data-testid="steps-1" className="static section2">
+        <section data-testid="steps-1" className="static section2" style={{top:"-191px"}}>
         <div className="section2_centered" style={{ color: "bisque"}}>
 <h2 className="how_it_works">New Collection</h2>
 <div className="filter_container" style={{    display: "flex"}}>
@@ -158,6 +158,11 @@ const filter_through=()=>{
 </form>
 </div>
       </section>
+
+      <div style={{textAlign:"center", color: "#29211e", padding:"5%"}}>
+         <div>Made by @TeamMEGDSiE with ♥</div> 
+
+      </div>
 
         </>
     )
