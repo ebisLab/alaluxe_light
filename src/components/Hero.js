@@ -13,6 +13,10 @@ export default function Hero() {
                 <button className="button call-btn">Get started</button>
          </div>
          </section>
+         <section className="section parallax2 bg2 hero-section hero-me afterbg bg2better" style={{zIndex:"-10"}}>
+         </section>
+         {/* <div className="bottombg"></div> */}
+
         </>
     )
 }

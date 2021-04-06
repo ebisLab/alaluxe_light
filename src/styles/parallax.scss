@@ -44,9 +44,9 @@
   }
 
   .sect3{
-    background: #222224;
+    background: #231d1a;
     margin: 0 auto !important;
-    box-shadow: 0px 0px 23px -1px #060606;
+    // box-shadow: 0px 0px 23px -1px #060606;
     padding: 5% !important;
   }
   
@@ -69,16 +69,88 @@
     z-index: -1;
     background-position: center center;
   }
+
+  .parallax2::after {
+    /* Display and position the pseudo-element */
+    content: " ";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  
+    /* Move the pseudo-element back away from the camera,
+     * then scale it back up to fill the viewport.
+     * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+    transform: translateZ(-1px) scale(1.5);
+    /* Force the background image to fill the whole element. */
+    background-size: cover;
+    /* Keep the image from overlapping sibling elements. */
+    z-index: -1;
+    background-position: bottom center;
+  }
   
   /* The styling for the static div. */
   .static {
     // background: #55392c;
-    background: rgb(41 40 43);
+    background: #1b1614;
   }
+
+
+
   
   /* Sets the actual background images to adorable kitties. This part is crucial. */
+
+
+  .afterbg::before{
+    content: " ";
+    position: absolute;
+    height: 200px ;
+    top:110vh ;
+    z-index: -1;
+    transform: translateZ(-1px) scale(1.5);
+    background-size: cover;
+    z-index: -1;
+    background-position: center center;
+  }
+
   .bg1::after {
     background-image: url("../images/img_lamp9.jpg");
     // background-image: linear-gradient(0, #29282b, transparent), url("../images/img_lamp9.jpg");
   }
+
+  .bg2::after {
+    // background-image: url("../images/img_lamp9.jpg");
+    // background-image: linear-gradient(0, #29282b, transparent), url("../images/img_lamp9.jpg");
+    background-image: linear-gradient( 0deg, #1b1614 6%, rgba(27, 22, 20, 0) 54%),url("../images/img_lamp9.jpg");
+    background-repeat: repeat, no-repeat;
+  }
+
+  .bottombg{
+    height: 80vh;
+    width: 100%;
+    background: orange;
+    z-index: -10;
+    margin-top: 6px;
+    position: absolute;
+    background-image: url("../images/img_lamp9.jpg");
+  }
+
+  .afterbg{
+    z-index: -1;
+  }
+
+  .bg2better{
+    z-index: -10;
+    top: 171px;
+    background-position: -44px -45px;
+    height: 200px !important;
+  }
+
+
+
+  .features_img{
+    box-shadow: rgb(0 0 0 / 32%) 0px 0px 23px -1px;
+  }
+
   

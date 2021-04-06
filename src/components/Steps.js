@@ -42,6 +42,9 @@ const filter_through=()=>{
 
     return (
         <>
+              {/* <section style={{height:"300px", background:"gold"}}></section> */}
+
+        
         <section data-testid="steps-1" className="static section2">
         <div className="section2_centered" style={{ color: "bisque"}}>
 <h2 className="how_it_works">New Collection</h2>
@@ -52,6 +55,7 @@ const filter_through=()=>{
         
         </div> 
       </section>
+
 
       <section data-testid="steps-1" className="static" 
       style={{
@@ -65,6 +69,7 @@ const filter_through=()=>{
 <div className="filter_container sect3" style={{ gridTemplateColumns: "unset", width:"700px"}}>
     <div style={{display:"inline-flex", height:"150px"}}>
     <div
+    className="features_img"
     style={{width: "250px",height: "330px",margin:"20px",position: "relative",
     left: "-131px",top: "-140px",  boxShadow: "#060606b0 0px 0px 23px -1px;", background:"gold"}}/>
     {/* <img src="./images/img_lamp2.jpg" 
@@ -96,7 +101,11 @@ const filter_through=()=>{
                 <hr/>
                 </div>
 
-                <div style={{width: "250px",height: "330px",margin:"20px",  boxShadow: "#060606b0 0px 0px 23px -1px", background:"orangered"}}/>
+                <div
+                className="features_img"
+                 style={{width: "250px",height: "330px",margin:"20px",  
+                //  boxShadow: "#060606b0 0px 0px 23px -1px", 
+                 background:"orangered"}}/>
                 
         {/* <img src="./images/img_lamp3.jpg" style={{width: "250px",height: "330px",margin:"20px",  boxShadow: "0px 0px 23px -1px black"}}/> */}
     </div>
@@ -105,6 +114,7 @@ const filter_through=()=>{
     {/* <img src="./images/img_lamp4.jpg" style={{width: "250px",height: "330px",margin:"20px",position: "relative",
     left: "-131px",top: "-140px",     boxShadow: "0px 0px 23px -1px black"}}/> */}
     <div
+    className="features_img"
     style={{width: "250px",height: "330px",margin:"20px",position: "relative",
     left: "-131px",top: "-95px",  boxShadow: "#060606b0 0px 0px 23px -1px;", background:"salmon"}}/>
         <div style={{width:"500px", margin:"20px", textAlign:"left",
@@ -131,7 +141,7 @@ const filter_through=()=>{
       <section data-testid="steps-1" className="static" 
       style={{
           marginTop: "5%", 
-      background:"#29282b"
+      background:"#1b1614"
     }}
       >
         <div className="section2_centered" style={{color: "bisque"}}>
